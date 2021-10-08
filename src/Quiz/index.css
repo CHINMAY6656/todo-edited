@@ -1,0 +1,35 @@
+.question{
+    width: 50%;
+    margin: 1rem auto;
+}
+.option{
+    display: block;
+    margin: auto;
+}
+.grdElm{
+    margin: 5px;
+}
+.grd{
+    width: 20%;
+    margin: auto;
+    float: right;
+}
+.Q{
+    padding: 1rem;
+    margin: 10rem auto;
+}
+.timr{
+    display: block;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px){
+    .grdElm{
+        margin: 1px;
+    }
+    .grd{
+        width: 100%;
+        margin: auto;
+        
+    }
+}

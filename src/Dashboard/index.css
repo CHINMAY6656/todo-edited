@@ -1,0 +1,18 @@
+.strip{
+    width: 100%;
+    padding: 1rem;
+    background-color: rgb(155, 236, 155);
+}
+.name{
+    display: inline-block;
+    
+}
+.logout{
+    float: right;
+    
+}
+.dash{
+    display: block;
+    margin: 5rem auto;
+    width: 80%;
+}

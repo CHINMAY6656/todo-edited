@@ -1,0 +1,61 @@
+body{
+  overflow-x: hidden;
+}
+
+.head {
+background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+}
+.headBtn {
+background: linear-gradient(-45deg, #7cbfe6, #f197ba, #84c9e2, #a5e0d3);
+background-size: 400% 400%;
+animation: gradient 15s ease infinite;
+width: 20rem;
+display: block;
+margin: 1rem auto;
+}
+
+@keyframes gradient {
+0% {
+   background-position: 0% 50%;
+}
+50% {
+   background-position: 100% 50%;
+}
+100% {
+   background-position: 0% 50%;
+}
+}
+
+.login{
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+   margin: 3rem auto;
+   padding: 1rem;
+   border: 2px rgb(125, 172, 224) solid;
+   border-radius: 1rem;
+}
+@media only screen and (max-width: 1000px){ 
+   body{
+       overflow: scroll;
+   }
+   .login{
+       width: 80%;
+   }
+   .coll{
+       text-align: center;
+       margin: auto;
+   }
+}
+.loginbtn{
+   width: 30%;
+   display: block;
+   margin: auto;
+}
+.reg{
+   width: 50%;
+   display: block;
+   margin: auto;
+}
